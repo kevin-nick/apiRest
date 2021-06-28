@@ -34,10 +34,8 @@ namespace drowpdowns.Controllers
                     }
                 }
 
-             }
-            return RedirectToAction("loby");
-            //result = db.Execute(sql, model); 
-            //return Ok(result);
+             } 
+            return Ok(result);
         }
             
      }
